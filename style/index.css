@@ -41,8 +41,25 @@ header .logo img{
 
 /* home */
 
+.home{
+    height: 100vh;
+}
+
+.home .container{
+    height: 100%;
+}
+
+.home-about{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
 .home h1{
     font-size: 45px;
+    font-family: Baloo Da 2;
 }
 
 .home .home-h2{
@@ -52,7 +69,15 @@ header .logo img{
 }
 
 .home .home-h2 hr{
-    width: 10%;
-    border: 1.5px solid;
+    width: 6.5%;
+    border: 1.8px solid;
     border-image: linear-gradient(to right, #00FFE0, #05A1F9) 1;
+}
+.home .home-h2 h2{
+    font-size: 25px;
+}
+
+.home .home-about p{
+    width: 35%;
+    font-size: 17px;
 }
